@@ -1,0 +1,23 @@
+package com.api.produto.controle;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class ProdutoControle {
+	
+	// Inicio
+	public String inicio() {
+		return "Bem vindo a API de produtos: "
+	}
+	
+	// Sobre
+	public String sobre() {
+		return "Bem vindo a API de produtos: "
+	}
+	// Contato
+	public String contato() {
+		return "Bem vindo a API de produtos: "
+	}
+}
